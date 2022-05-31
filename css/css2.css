@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header, footer, .upper {
+    background-color: #1F2937;
+    color: white;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.head {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.logo, .links {
+    display: inline;
+}
+.hero-main {
+    
+    font-size: 48px;
+    font-style: extra-bold;
+    
+}
+.hero-second {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+   
+}
+
+footer {
+    text-align: center;
+}
+
