@@ -18,7 +18,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 10%;
 }
@@ -31,7 +31,7 @@ header {
     width: 60%;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -77,17 +77,18 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .im {
-    width: 25%;
+    width: 20%;
     height: 200px;
 }
 
 .lower-quote {
     height: 30%;
     margin: 10px auto;
+    
 }
 
 button {
