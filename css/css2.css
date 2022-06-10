@@ -1,24 +1,61 @@
+
 .container {
     display: flex;
     flex-direction: column;
-}
+    width: 80%;
+    justify-content: center;
+    margin: auto;
 
+}
 
 header, footer, .upper {
     background-color: #1F2937;
     color: white;
 }
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
 .logo{
+    width: 40%;
     font-size: 24px;
     color: #F9FAF8;
 }
-.head {
+.links {
+    width: 60%;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
-.logo, .links {
-    display: inline;
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    align-content: center;
 }
+.upper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+.left-upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-main {
     
     font-size: 48px;
@@ -28,6 +65,29 @@ header, footer, .upper {
 .hero-second {
     font-size: 18px;
     color: #e5e7eb;
+    width: 50%;
+}
+
+.middle  {
+    text-align: center;
+    height: 30%;
+    margin: 10px auto;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.im {
+    width: 25%;
+    height: 200px;
+}
+
+.lower-quote {
+    height: 30%;
+    margin: 10px auto;
 }
 
 button {
@@ -42,7 +102,29 @@ button {
    
 }
 
+.lower-signup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background-color: #3882F6;
+    margin: 10px auto;
+}
+
+.paragraphs {
+    padding: 0 30px;
+    text-align: center;
+}
+.signup {
+    margin: 10px auto;
+    color: #F9FAF8;
+}
+
 footer {
+    height: 10%;
     text-align: center;
 }
 
